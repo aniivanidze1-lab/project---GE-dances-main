@@ -180,6 +180,7 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
+  align-items: start;
 }
 .dances-page::before {
   background-image: url("images/dances_back.jpg");
